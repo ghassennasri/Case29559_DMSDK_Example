@@ -40,7 +40,7 @@ public class DMSDKTest {
             throwable.printStackTrace();
         });
         try {
-            fileContents=Files.walk(Paths.get("../data"))
+            fileContents=Files.walk(Paths.get("./data"))
                     .filter(Files::isRegularFile)
                     .map(p->{
                         Stream<String> lines = null;
