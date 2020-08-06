@@ -1,0 +1,8 @@
+{
+  "user-name": "uri-priv-denied-user",
+  "description": "user not having uri privilege events-v2-archive",
+  "password": "admin",
+  "role": [
+    "uri-denied-granted-role"
+  ]
+}

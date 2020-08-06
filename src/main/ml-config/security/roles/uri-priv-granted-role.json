@@ -1,0 +1,6 @@
+{
+"role-name":"uri-priv-granted-role",
+"description":"",
+ "role":["rest-reader", "rest-admin", "rest-writer"],
+ "privilege":[{"privilege-name":"events-v2-archive", "action":"/events-v2-archive/", "kind":"uri"}]
+}

@@ -1,0 +1,5 @@
+{
+  "privilege-name": "events-v2-archive",
+  "action": "/events-v2-archive/",
+  "kind": "uri"
+}

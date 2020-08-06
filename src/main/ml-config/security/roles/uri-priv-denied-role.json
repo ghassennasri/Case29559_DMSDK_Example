@@ -1,0 +1,6 @@
+{
+"role-name":"uri-denied-granted-role",
+"description":"",
+ "role":["rest-reader", "rest-admin", "rest-writer"]
+
+}
