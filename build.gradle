@@ -29,8 +29,8 @@ task runDMSDKTestWithURIPrivDeniedUser(type: JavaExec) {
     main = DMSDKTestClass
     args = [project.property('mlHost'),project.property('mlRestPort'),project.property('uri-priv-denied-username'),project.property('mlPassword')]
 }
-//runDMSDKTestWithURIPrivDeniedUser.dependsOn mlDeploy
-//runDMSDKTestWithURIPrivGrantedUser.dependsOn mlDeploy
+runDMSDKTestWithURIPrivDeniedUser.dependsOn mlDeploy
+runDMSDKTestWithURIPrivGrantedUser.dependsOn mlDeploy
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'com.marklogic', name: 'marklogic-client-api', version: '4.1.2'
